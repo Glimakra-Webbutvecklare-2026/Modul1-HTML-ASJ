@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Om tabeller</title>
 </head>
+
 <body>
-    
+
     <h1>Om tabeller</h1>
 
     <p>
-         En tabell var förr i tiden en given struktur för att koda design.
+        En tabell var förr i tiden en given struktur för att koda design.
     </p>
-   
+
 
     <!-- använd elementet table 
      
@@ -34,15 +36,28 @@
         </tr>
     </table>
 
-    <hr>
+    <!-- med elementet <br> skapas en ny rad 
+    använd sparsamt i Modul 1 
+    -->
 
-    <table>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <table border="1">
+
+        <!-- elemenet caption -->
+        <caption>Platshållartext med <a href="http://lipsum.org">Lorem ipsum</a></caption>
+
         <!-- rubrik celler med elementet th -->
-         <tr>
+
+
+        <tr>
             <th>Kolumn 1</th>
-            <th>Kolumn 2</th>
-            <th>Kolumn 3</th>
-         </tr>
+            <th colspan="">Kolumn 2 och 3</th>
+        </tr>
         <tr>
             <td>Lorem ipsum dolor sit amet.</td>
             <td>Voluptas perferendis a in obcaecati!</td>
@@ -59,7 +74,13 @@
             <td>Corporis quas asperiores sint? Accusantium.</td>
         </tr>
     </table>
-    
+
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
 
     <!-- uppgift
     skapa en ny tabell som har ngt med mat att göra, ex maträtter, recept eller frukost, lunch... 
@@ -69,10 +90,79 @@
     -->
 
 
+    <table width="400" border="1">
+        <tr>
+            <th>Frukost</th>
+            <th>Lunch</th>
+            <th>Middag</th>
+        </tr>
+        <tr>
+            <td>Ostmacka</td>
+            <td>Yoghurt</td>
+            <td>Gröt</td>
+        </tr>
+        <tr>
+            <td>Köttbulllar</td>
+            <td>Sushi</td>
+            <td>Vårullar</td>
+        </tr>
+        <tr>
+            <td>Pizza</td>
+            <td>Lasange</td>
+            <td>Hamburgare</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+
+    <table width="500">
+
+        <tr>
+            <th>Maträtter</th>
+            <td>Pasta & makaroner</td>
+            <td>lasagne</td>
+            <td>BBQ</td>
+        </tr>
+        <tr>
+            <th>Snacks</th>
+            <td>Ben & Jerry's</td>
+            <td>Dumle</td>
+            <td>Bilar</td>
+        </tr>
+        <tr>
+            <th>Kvällsmat</th>
+            <td>Macka med Obey</td>
+            <td>Wrap</td>
+            <td>Müsli</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <h1>Some decent meals</h1>
+    <small>mostly from my own favourites</small>
+    <table width="400" border="1">
+        <tr>
+            <td>stroganoff</td>
+            <td>carbonara with pasta</td>
+            <td>smoked salmon</td>
+        </tr>
+
+    </table>
     <!-- tidigare - jfr finns ngn skilland visuellt -->
     <!-- <p>
         Sverige Norge Danmark
     </p> -->
 
 </body>
+
 </html>
