@@ -30,7 +30,30 @@
 
     <h1>Om formulär</h1>
 
-    <!-- ... -->
+    <!-- elementet form används för att skapa ett formulär -->
+
+    <!-- ex 1 - ett fält för att skriva namn -->
+
+    <form action="" method="get">
+
+        <!-- ett fält för att skriva text 
+        elementet input med attributet type="text" 
+        se till att attributen name och id finns angivna
+        attributet name: anger namn på ett visst element, exempelvis 'name', 'first_name'
+        attributet placeholder ger möjlighet att hinta i grå text vad som ska skrivas
+        -->
+        <input type="text" name="fullname" id="" placeholder="Ditt namn">
+
+        <!--
+        för att skicka, spara, använda ... lägg till en knapp
+        ett formulär som skickas har ett 'submit event' vilket förvalt sker genom
+        att klicka på en knapp av typ submit
+        -->
+        <input type="submit" value="Skicka">
+
+
+    </form>
+
 
 </body>
 
