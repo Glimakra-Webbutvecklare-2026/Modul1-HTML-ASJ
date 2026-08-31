@@ -74,7 +74,7 @@
             <br>
 
             <!-- input type="email" -->
-            <input type="email" name="email" id="email">            
+            <input type="email" name="email" id="email">
         </label>
 
         <!-- en knapp kan oxå skapas med elementet button 
@@ -85,10 +85,10 @@
 
         <!-- med type="reset" nollas samtliga fält i omslutande form element -->
         <button type="reset">Börja om</button>
-        
+
     </form>
 
-    
+
 
     <br><br><br><br><br>
 
@@ -123,8 +123,67 @@
     skapa ett nytt formulär
     det ska innehålla minst 2 varianter av input som vi inte kodat
     koda fram till 13:20
+
+    var nyfiken - kolla vad för olika typer som finns. 
+    kan det finnas en mening med att ex använda input:image
     -->
-    
+
+    <!-- ex 4 input radio och checkbox -->
+
+    <form action="" method="get">
+
+
+        <h4>Trafikvett / ovett?</h4>
+
+        <p>
+            När ska man <strong>stanna</strong> vid ett trafikljus?
+        </p>
+
+        <!-- till input type radio och checkbox använd attributet value 
+        input:radio
+        
+        för dessa fält kan eventuellt elementet fieldset pass
+        -->
+
+        <fieldset>
+            <!-- vad heter elementet som kan skapa en slags rubrik i ett fieldset -->
+            <legend> färg? </legend>
+            <label><input type="radio" name="color_signal" value="green"> grön</label>
+            <label><input type="radio" name="color_signal" value="yellow"> gul</label>
+            <label><input type="radio" name="color_signal" value="red"> röd</label>
+        </fieldset>
+
+        <!--
+        input:checkbox
+        -->
+
+        <p>
+            När ska man <em>köra</em> vid ett trafikljus?
+        </p>
+
+        <fieldset>
+            <legend>kanske...</legend>
+            <label><input type="checkbox" name="clear_path">När ingen är i vägen</label>
+            <label><input type="checkbox" name="clear_mindset">När det är läge</label>
+            <label><input type="checkbox" name="perhaps_now">När tålamodet tryter</label>
+        </fieldset>
+
+
+        <!-- visa ett fritext fält som man kan skriva i 
+        använd attributen cols och rows för att förändra storlek
+        -->
+
+        <br><br>
+
+        <label for="background">Berätta lite om vem du är</label>
+        <br>
+        <textarea name="background" id="background" cols="40" rows="7"></textarea>
+        <br><br>
+
+        <button>Kontrollera mina svar</button>
+
+    </form>
+
 
 
 
