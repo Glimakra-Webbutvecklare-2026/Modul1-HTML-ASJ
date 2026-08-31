@@ -34,6 +34,7 @@
 
     <!-- ex 1 - ett fält för att skriva namn -->
 
+    <!-- metoden 'get' innebär att en url ger resultatet av ex en knapptryckning -->
     <form action="" method="get">
 
         <!-- ett fält för att skriva text 
@@ -51,8 +52,45 @@
         -->
         <input type="submit" value="Skicka">
 
-
     </form>
+
+
+    <br><br><br><br><br>
+
+    <!-- ex 2 - ett fält för att skriva e-post -->
+
+    <form action="" method="get">
+
+        <!-- elementet label används för att skriva en förklaring till 
+        det fält som finns 
+        attributet for ska matcha värdet hos ett element med motsvarande id
+        Stängsningstag för label elementet kan oxå placeras efter tillhörande fält
+        -->
+
+        <label for="email">
+            Email adress:
+
+            <!-- använd br elementet för att placera text ovanför input fältet -->
+            <br>
+
+            <!-- input type="email" -->
+            <input type="email" name="email" id="email">            
+        </label>
+
+        <!-- en knapp kan oxå skapas med elementet button 
+        istället för submit som ovan 
+        här kan attributet type="submit" anges eller utelämnas
+        -->
+        <button type="submit">Jag vill ha nyhetsbrev</button>
+
+        <!-- med type="reset" nollas samtliga fält i omslutande form element -->
+        <button type="reset">Börja om</button>
+        
+    </form>
+
+
+
+
 
 
 </body>
