@@ -87,8 +87,11 @@
     elementen <figure>, <figcaption>, <h1> är exempel på block element 
     -->
 
+        <hr>
 
+        <h2>Olika visuella element</h2>
 
+        <h4>Elementet img</h4>
 
         <figure>
             <!-- bild med absolut referens/sökväg - inleds här med ett protokoll http.... -->
@@ -114,18 +117,53 @@
 
         </figure>
 
+        <h4>Elementet audio</h4>
+
+        <figure>
+            <!-- med attributet controls visas uppspelningsmöjligher -->
+            <audio
+                src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Turdus_merula_-_Common_Blackbird_XC546158.mp3?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                controls></audio>
+            <figcaption>Benoît Van Hecke, CC BY-SA 4.0 <https: //creativecommons.org/licenses/by-sa/4.0>, via Wikimedia
+                    Commons</figcaption>
+        </figure>
+
+
+        <h4>Elementet video</h4>
+
+        <figure>
+            <video
+                src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Turdus_merula_singing.webm?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                controls width="300"></video>
+            <figcaption>Larske, CC BY-SA 3.0 <https: //creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
+            </figcaption>
+        </figure>
+
+        <h4>Elementet iframe</h4>
+
+        <figure>
+<!-- tänk på att använda rätt proportioner bild/bredd förhållande -->
+<iframe width="320" height="180" src="https://www.youtube.com/embed/ohcDPgd1V5Y?si=8F9RtHKcvYGeZ11h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <figcaption>
+                Youtube klipp av 'bergenborg', se <a href="https://www.youtube.com/watch?v=ohcDPgd1V5Y" target="_blank">Youtube</a>
+
+            </figcaption>
+        </figure>
+
     </main>
 
 
     <aside>
 
         <h2>
-            Exempel på några HTML entities  - som &copy;
+            Exempel på några HTML entities - som &copy;
         </h2>
 
 
         <p>
-            Med HTML entities kan man visa tecken som inte finns på tangentbordet. Det är en sekvens av tecken som bildar ett special tecken.
+            Med HTML entities kan man visa tecken som inte finns på tangentbordet. Det är en sekvens av tecken som
+            bildar ett special tecken.
         </p>
 
         <div>
@@ -148,14 +186,14 @@
             <!-- radioktivt -->
             Varning &#9762; - fara!
         </div>
-        
+
         <div>
             En så kallad "hamburger meny" &#9776;
         </div>
 
         <div>
             <!-- måne -->
-             Ser månen ut som ett komma tecken &#9789; väntas månsken 
+            Ser månen ut som ett komma tecken &#9789; väntas månsken
         </div>
 
         <div>
